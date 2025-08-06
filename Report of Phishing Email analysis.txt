@@ -1,0 +1,58 @@
+Phishing Email Analysis Report
+
+1. Objective
+
+The purpose of this report is to analyze a suspicious email that mimics a legitimate PayPal account alert and to identify the phishing characteristics that make it a potential threat. The analysis demonstrates how social engineering tactics are used to trick users into clicking malicious links or revealing sensitive information.
+
+
+2. Phishing Email Sample
+
+Subject: ⚠️ Your PayPal Account Has Been Suspended – Immediate Action Required
+From: security@paypall.com (spoofed domain)
+To: yourname@example.com
+Reply-To: fraudcheck@secure-paypal-verification.com
+Attachment: Account_Verification_Form.html
+
+Email Body:
+
+Dear Valued Customer,
+
+We have detected unusual activity on your PayPal account and have temporarily limited your access.
+
+To restore full access, please verify your identity by clicking the secure link below:
+http://paypal-login-security-alerts.com/verify-now
+
+Failure to verify within 24 hours will result in permanent suspension of your account.
+
+Thank you for choosing PayPal.
+Sincerely,
+PayPal Security Team
+
+
+3. Phishing Indicators Identified
+
+-Spoofed sender email: misspelled domain name (paypall.com)
+
+-Suspicious link: redirects to a fake PayPal login page
+
+-Urgent and threatening language
+
+-Generic greeting ("Dear Valued Customer")
+
+-Mismatched reply-to address
+
+-Suspicious .html attachment
+
+-Poor grammar/robotic tone
+
+
+4. Email Header Analysis
+
+In real-world scenarios, analyzing the email header is important to detect spoofing and technical threats.
+Tools like MXToolbox Email Header Analyzer (https://mxtoolbox.com/EmailHeaders.aspx) can be used to check for sender IP, routing, SPF, DKIM, and DMARC results.
+
+
+5. Conclusion
+
+This phishing email is a typical example of social engineering, using brand impersonation and emotional pressure. It contains several classic red flags that users should be trained to recognize. Raising awareness of such tactics helps prevent credential theft and financial fraud.
+
